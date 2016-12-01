@@ -1,0 +1,45 @@
+#all {
+  width: 100%;
+  height: 100%;
+  background-color: #fff3b4;
+  position: relative;
+}
+
+.coloured-div {
+  height: 31.2%;
+  width: 98%;
+  top: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+#div-red {
+  text-align: center;
+  background-color: #ffb6af;
+}
+#div-green {
+  text-align: center;
+  background-color: #d3ffaf;
+}
+#div-blue {
+  background-color: #c3d7ff;
+}
+
+#div-profile  {
+  position: relative;
+  height: 90%;
+  top: 5%;
+}
+
+#div-profile img {
+  position: relative;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#div-green span {
+  font-family: fantasy;
+  font-size: 60px;
+  position: relative;
+  top: 30%;
+}

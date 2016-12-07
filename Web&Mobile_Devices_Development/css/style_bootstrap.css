@@ -1,0 +1,17 @@
+.cols {
+    height: 100px;
+}
+img {
+  position: relative;
+  height: 80%;
+  top: 10%;
+}
+#mytable {
+  width: 100%;
+  position: relative;
+}
+#result {
+  position: relative;
+  top: 10%;
+  display: block;
+}

@@ -1,0 +1,163 @@
+body {
+  background-image: url(../img/portfolio_bg.jpg);
+  background-color: #87c8dc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#LOGO {
+  height: 300px;
+  margin: auto;
+  display: block;
+  vertical-align:middle;
+}
+
+#GraphicDesigner {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px 3px grey;
+  position: relative;
+  text-align: center;
+}
+
+#WebDeveloper {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px 3px grey;
+  position: relative;
+  text-align: center;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#icons_1 {
+  height: 50px;
+  margin-left: 30px;
+}
+
+#icons_2 {
+  height: 50px;
+  margin:10px;
+}
+
+#icons_3 {
+  height: 50px;
+  margin:10px;
+}
+
+#icons_4 {
+  height: 50px;
+  margin:10px;
+}
+
+.SNS_icons {
+  height: 500px;
+  background-color: #fff;
+  display: none;
+}
+
+.bar {
+  height: 20px;
+}
+
+#group_bars_text {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px
+  position: relative;
+  text-align: center;
+}
+
+#bar1 {
+  background-color: #40adc8;
+}
+#bar2 {
+  background-color: #9198cb;
+}
+#bar3 {
+  background-color: #70c4b2;
+}
+#bar4 {
+  background-color: #dd9db2;
+}
+
+#content1 {
+  height: 800px;
+  background-color: #40adc8;
+  display: none;
+}
+
+.p1 {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px
+}
+
+.p4 {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px
+}
+
+p {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px
+}
+
+#profile {
+  height: 300px;
+  margin: 10px;
+}
+
+#content2 {
+  height: 1200px;
+  position: relative;
+  background-color: #fff;
+  display: none;
+}
+
+#content3 {
+  height: 5800px;
+  position: relative;
+  background-color: #fff;
+  display: none;
+}
+
+#content4 {
+  height: 500px;
+  background-color: #fff;
+  display: none;
+}
+
+.line {
+  height: 1px;
+  background-color: #fff;
+}
+
+#address {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  text-align: left;
+}
+
+#email {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  text-align: right;
+}
+
+#result {
+  position: relative;
+  top: 10%;
+  display: block;
+}

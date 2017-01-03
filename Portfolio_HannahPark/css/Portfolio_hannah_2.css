@@ -13,6 +13,10 @@ body {
   vertical-align:middle;
 }
 
+/*#LOGO:hover{
+  background:url("../img/insta_icon.png");
+}*/
+
 #GraphicDesigner {
   color: #fff;
   font-family: 'Oswald', sans-serif;
@@ -75,19 +79,31 @@ body {
   text-align: center;
 }
 
-#bar1 {
+#bar1
+{
   background-color: #40adc8;
+}
+#bar1 :hover {
+  background-color: #e0e0e0;
 }
 #bar2 {
   background-color: #9198cb;
 }
+#bar2 :hover {
+  background-color: #e0e0e0;
+}
 #bar3 {
   background-color: #70c4b2;
+}
+#bar3 :hover {
+  background-color: #e0e0e0;
 }
 #bar4 {
   background-color: #dd9db2;
 }
-
+#bar4 :hover {
+  background-color: #e0e0e0;
+}
 #content1 {
   height: 800px;
   background-color: #40adc8;

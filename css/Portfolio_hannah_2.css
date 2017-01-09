@@ -83,25 +83,25 @@ body {
 {
   background-color: #40adc8;
 }
-#bar1 :hover {
+#bar1:hover {
   background-color: #e0e0e0;
 }
 #bar2 {
   background-color: #9198cb;
 }
-#bar2 :hover {
+#bar2:hover {
   background-color: #e0e0e0;
 }
 #bar3 {
   background-color: #70c4b2;
 }
-#bar3 :hover {
+#bar3:hover {
   background-color: #e0e0e0;
 }
 #bar4 {
   background-color: #dd9db2;
 }
-#bar4 :hover {
+#bar4:hover {
   background-color: #e0e0e0;
 }
 #content1 {

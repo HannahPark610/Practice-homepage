@@ -11,8 +11,8 @@ $.ajax(
 });
 } else {
      console.log("I want login");
-     $("#loginArea").show();
-     $("#infoArea").hide();
-     $("#logoutArea").hide();
+     $("#login").show();
+     $("#info").hide();
+     $("#logout").hide();
    }
  });

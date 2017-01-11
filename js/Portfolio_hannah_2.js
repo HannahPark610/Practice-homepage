@@ -10,7 +10,7 @@ $(function() {
         console.log(response);
         for(let relationship of response.data) {
           console.log(relationship.full_name);
-          $("#relationships").append("<img src=" + relationship.profile_picture + "><p>"+relationship.full_name+"</p>");
+          $("#icons_2").append("<img src=" + relationship.profile_picture + "><p>"+relationship.full_name+"</p>");
         }
       },
     });

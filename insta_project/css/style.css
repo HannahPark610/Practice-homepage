@@ -1,0 +1,12 @@
+.barlogo {
+  width: 20%;
+}
+.background_main {
+  background-image: url("../img/portfolio_bg.jpg");
+  background-size: cover;
+}
+#my_logo_img {
+  width: 20%;
+  display: block;
+  margin: auto;
+}

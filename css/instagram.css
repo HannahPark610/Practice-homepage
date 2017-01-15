@@ -1,3 +1,25 @@
+#info-place {
+  background-color: #39a3bd;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#hannahuser {
+  font-family: 'Indie Flower';
+  color: #fff;
+  font-size: 50px;
+  line-height: 120px;
+  text-align: center;
+  vertical-align: middle;
+}
+.inout {
+  text-align: center;
+}
+#followers {
+ position: absolute;
+ top: 270px;
+ left: 90%;
+}
 #instaPics {
 max-width: 320px;
 overflow: hidden;
@@ -10,7 +32,7 @@ overflow: hidden;
  margin: 4px;
  border: 1px solid #ddd;
 }
-.image-layer {  
+.image-layer {
  overflow: hidden;
  width: 100%;
  height: 100%;

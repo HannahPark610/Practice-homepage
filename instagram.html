@@ -7,12 +7,44 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
 <script src="js/instagram.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+<link rel="stylesheet" href="css/instagram.css">
 </head>
 <body>
-  <p id="hannahuser">Hannah Park</p>
-  <div id="login">
-   <a href="https://api.instagram.com/oauth/authorize/?client_id=6eaddd3646c44539a3a10b0f517076ca&redirect_uri=https://hannahpark610.github.io/instagram.html&response_type=token&scope=basic+public_content+follower_list+comments+relationships+likes">Login</a>
- </div>
+  <div class="container">
+    <div class="row">
+      <div id="login_before">
+        <div class="infoPalce" id="info-place">
+       <p id="hannahuser">Hannah Park</p>
+       <a href="https://api.instagram.com/oauth/authorize/?client_id=6eaddd3646c44539a3a10b0f517076ca&redirect_uri=https://hannahpark610.github.io/instagram.html&response_type=token&scope=basic+public_content+follower_list+comments+relationships+likes">
+       </a>
+       <p>Welcome to Hannah's world<button id="login">login</button></p>
+        <div id="instaPics"></div>
+         <div class="jcarousel-wrapper">
+           <div class="jcarousel">
+               <ul>
+                 <li><img src="./img/insta_img1.png" width="600" height="450" alt=""></li>
+                 <li><img src="./img/insta_img2.png" width="600" height="450" alt=""></li>
+                 <li><img src="./img/insta_img3.png" width="600" height="450" alt=""></li>
+                 <li><img src="./img/insta_img4.png" width="600" height="450" alt=""></li>
+                 <li><img src="./img/insta_img5.png" width="600" height="450" alt=""></li>
+                 <li><img src="./img/insta_img6.png" width="600" height="450" alt=""></li>
+               </ul>
+           </div>
+           <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+           <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+           <p class="jcarousel-pagination"></p>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+ <div class="container">
+    <div class="row">
+      <div id="login_after">
+      <div class="col-sm-3">
+      </div>
+
  <div id="info">
    <div id="myName"></div>
  </div>
@@ -22,18 +54,6 @@
  <button id="showFollowers">follows</button>
  <div id="followers">
  </div>
- <div id="instaPics"></div>
- <div class="jcarousel-wrapper">
-     <div class="jcarousel">
-         <ul>
-             <li><img src="./img/thumbnail_2.jpg" width="600" height="400" alt=""></li>
-             <li><img src="./img/thumbnail_4.jpg" width="600" height="400" alt=""></li>
-             <li><img src="./img/thumbnail_2.jpg" width="600" height="400" alt=""></li>
-         </ul>
-     </div>
-     <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-     <a href="#" class="jcarousel-control-next">&rsaquo;</a>
-     <p class="jcarousel-pagination"></p>
-  </div>
+
 </body>
 </html>

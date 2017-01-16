@@ -67,7 +67,7 @@ element.jcarousel('items').css('width', width + 'px');
                               for(var i = 0; i < response.data.length; i++) {
                                 var html = '<ul>';
                                 $.each(response.data, function() {
-                                html += '<li><img src="' + this.images.standard_resolution.url + '" alt="' + this.title + '"></li>';
+                                html += '<li><img src="' + this.images.thumbnail.url + '" alt="' + this.title + '"></li>';
                             });
 
                             html += '</ul>';

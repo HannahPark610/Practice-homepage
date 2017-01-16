@@ -5,6 +5,7 @@ $(function() {
     localStorage.setItem("insta-token", token[1])
   }
 
+  hidealllogin();
   if (localStorage.getItem("insta-token") == null) {
     showLogin();
   } else {
@@ -24,4 +25,9 @@ function showLogin() {
 function hideLogin() {
   $("#login").hide();
   $("#logout").show();
+}
+
+function hidealllogin() {
+  $("#login").hide();
+  $("#logout").hide();
 }

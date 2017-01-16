@@ -91,7 +91,7 @@ element.jcarousel('items').css('width', width + 'px');
                             console.log(response);
                             for(let follower of response.data) {
                               console.log(follower.full_name);
-                              $("#login").append("<img src=" + follower.profile_picture + "><p>"+follower.full_name+"</p>");
+                              $("#followers").append("<img src=" + follower.profile_picture + "><p>"+follower.full_name+"</p>");
                             }
                           },
                         });

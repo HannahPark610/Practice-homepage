@@ -6,10 +6,24 @@ $(function() {
   }
 
   if (localStorage.getItem("insta-token") == null) {
-    $("#login").show();
-    $("#logout").hide();
+    showLogin();
   } else {
-      $("#login").hide();
-      $("#logout").show();
+    hideLogin();
   }
-});
+
+  $("#logout").click(function() {
+    localStorage.removeItem("insta-token");
+    showLogin();
+  });
+},
+
+function showLogin() {
+  $("#login").show();
+  $("#logout").hide();
+},
+
+function hideLogin() {
+  $("#login").hide();
+  $("#logout").show();
+}
+);

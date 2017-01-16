@@ -12,11 +12,9 @@ $(function() {
   }
 },
 function logoutInsta() {
-
     localStorage.removeItem("insta-token");
     showLogin();
-}
-
+},
 function showLogin() {
   $("#login").show();
   $("#logout").hide();

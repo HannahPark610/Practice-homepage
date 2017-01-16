@@ -10,12 +10,12 @@ $(function() {
   } else {
     hideLogin();
   }
+},
+function logout() {
 
-  $("#logout").click(function() {
     localStorage.removeItem("insta-token");
     showLogin();
-  });
-},
+}
 
 function showLogin() {
   $("#login").show();

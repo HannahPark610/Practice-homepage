@@ -10,3 +10,7 @@
   display: block;
   margin: auto;
 }
+
+#thumbnail {
+  height: 400px;
+}

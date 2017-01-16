@@ -12,7 +12,19 @@ $(function() {
     hideLogin();
   }
 
-  var jcarousel = $('.jcarousel').jcarousel();
+  var jcarousel = $('.jcarousel')
+  .on('jcarousel:create jcarousel:reload', function() {
+var element = $(this),
+width = element.innerWidth();
+
+if (width > 900) {
+width = width / 3;
+} else if (width > 600) {
+width = width / 2;
+}
+
+element.jcarousel('items').css('width', width + 'px');
+}).jcarousel();
 
           $('.jcarousel-control-prev')
               .on('jcarouselcontrol:active', function() {

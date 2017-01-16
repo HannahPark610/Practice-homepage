@@ -1,58 +1,60 @@
 <!DOCTYPE html>
-<html>
-<head>
-<!--link rel="stylesheet" type="text/css" href="http://sorgalla.com/jcarousel/examples/basic/jcarousel.basic.css" /-->
-<!-- <script type="text/javascript" src="jquery.min.js"></script> -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
-<script src="js/instagram.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
-<link rel="stylesheet" href="css/instagram.css">
-</head>
-<body>
-  <div class="container">
-    <div class="row">
-      <div id="login_before">
-        <div class="infoPalce" id="info-place">
-       <p id="hannahuser">Hannah Park</p>
-       <a href="https://api.instagram.com/oauth/authorize/?client_id=6eaddd3646c44539a3a10b0f517076ca&redirect_uri=https://hannahpark610.github.io/instagram.html&response_type=token&scope=basic+public_content+follower_list+comments+relationships+likes">
-       </a>
-       <p>Welcome to Hannah's world<button id="login">login</button></p>
-        <div id="instaPics"></div>
-         <div class="jcarousel-wrapper">
-           <div class="jcarousel">
-               <ul>
-                 <li><img src="./img/insta_img1.png" width="600" height="450" alt=""></li>
-                 <li><img src="./img/insta_img2.png" width="600" height="450" alt=""></li>
-                 <li><img src="./img/insta_img3.png" width="600" height="450" alt=""></li>
-                 <li><img src="./img/insta_img4.png" width="600" height="450" alt=""></li>
-                 <li><img src="./img/insta_img5.png" width="600" height="450" alt=""></li>
-                 <li><img src="./img/insta_img6.png" width="600" height="450" alt=""></li>
-               </ul>
-           </div>
-           <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-           <a href="#" class="jcarousel-control-next">&rsaquo;</a>
-           <p class="jcarousel-pagination"></p>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/instagram.css">
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script ntype="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="js/insta.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="img/portfolio_LOGO_icon.png"></img>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="login" href="https://api.instagram.com/oauth/authorize/?client_id=6eaddd3646c44539a3a10b0f517076ca&redirect_uri=https://hannahpark610.github.io/insta_project&response_type=token">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="logout" onclick="logoutInsta()">Log out</a>
+            </li>
+          </ul>
         </div>
-      </div>
-     </div>
+      </nav>
     </div>
-  </div>
- <div class="container">
-    <div class="row">
-      <div id="login_after">
-      <div class="col-sm-3">
-      </div>
 
- <div id="info">
-   <div id="myName"></div>
- </div>
- <div id="logout">
-   <a href="instagram.html">Logout</a>
- </div>
- <button id="showFollowers">follows</button>
- <div id="followers">
- </div>
+    <div class="followers" button id="showfollowers">follows</button>
 
-</body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+        <div id="main" class="background_main">
+          <div id="my_logo">
+            <img id="my_logo_img" src="img/portfolio_LOGO.png" />
+          </div>
+          <div id="thumbnail">
+               <div class="jcarousel">
+                 <ul>
+                   <li></li>
+                 </ul>
+               </div>
+               <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+               <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+               <p class="jcarousel-pagination"></p>
+          </div>
+        </div>
+  </body>
 </html>

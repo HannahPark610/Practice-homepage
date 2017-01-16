@@ -1,56 +1,12 @@
-#info-place {
-  background-color: #39a3bd;
-  background-repeat: no-repeat;
-  background-position: center;
+.barlogo {
+  width: 20%;
+}
+.background_main {
+  background-image: url("../img/portfolio_bg.jpg");
   background-size: cover;
 }
-#hannahuser {
-  font-family: 'Indie Flower';
-  color: #fff;
-  font-size: 50px;
-  line-height: 120px;
-  text-align: center;
-  vertical-align: middle;
+#my_logo_img {
+  width: 20%;
+  display: block;
+  margin: auto;
 }
-.inout {
-  text-align: center;
-}
-#followers {
- position: absolute;
- top: 270px;
- left: 90%;
-}
-#instaPics {
-max-width: 320px;
-overflow: hidden;
-}
-.insta-box {
- position: relative;
- width: 120px;
- height: 120px;
- float: right;
- margin: 4px;
- border: 1px solid #ddd;
-}
-.image-layer {
- overflow: hidden;
- width: 200%;
- height: 100%;
-}
-.image-layer img {
- max-width: 100%;
-}
-.caption-layer {
- display: none;
- position: absolute;
- top: 0;
- background: rgba(255,255,255,0.8);
- height: 100%;
- width: 100%;
- padding: 10px;
- box-sizing: border-box;
- font-size: 10px;
- color: #333;
-}
-.insta-likes {
- float: right;

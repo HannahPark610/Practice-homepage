@@ -11,7 +11,7 @@ $(function() {
     hideLogin();
   }
 },
-function logout() {
+function logoutInsta() {
 
     localStorage.removeItem("insta-token");
     showLogin();
